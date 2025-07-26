@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %}Главная — Портфолио Нурбека{% endblock %}
+
+{% block content %}
+<h1 class="mb-3">Привет, я Нурбек 👋</h1>
+<p class="lead">Python веб-разработчик. Люблю Flask, Bootstrap и создавать полезные проекты.</p>
+<a href="{{ url_for('projects') }}" class="btn btn-primary mt-3">Посмотреть мои проекты</a>
+{% endblock %}
+
